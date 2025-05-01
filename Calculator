@@ -1,0 +1,25 @@
+Addition Methods
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Declare variables
+        int num1, num2, sum;
+
+        // Input first number
+        Console.Write("Enter the first number: ");
+        num1 = Convert.ToInt32(Console.ReadLine());
+
+        // Input second number
+        Console.Write("Enter the second number: ");
+        num2 = Convert.ToInt32(Console.ReadLine());
+
+        // Calculate sum
+        sum = num1 + num2;
+
+        // Display result
+        Console.WriteLine("The sum of {0} and {1} is {2}", num1, num2, sum);
+    }
+}
